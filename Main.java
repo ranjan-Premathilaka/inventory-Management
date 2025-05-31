@@ -74,13 +74,108 @@ class Item{
                     }
 
         }
+        public void printDetails(){
+            System.out.println(".............Details..............");
+            System.out.println("Item           price           Quantity         Amount ");
 
 
-
-
+            System.out.println(".............You are welcome..............");
+        }
 
 
 }
+
+
+class Customer{
+    private String Name;
+    private String contactDetails;
+
+    Customer(String Name,String contactDetails){
+        this.Name=Name;
+        this.contactDetails=contactDetails;
+    }
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+
+      public String gatContactDetails(){
+        return contactDetails;
+    }
+    public void setContactDetails(String contactDetails){
+        this.contactDetails=contactDetails;
+    }
+
+
+}
+
+
+Public class Database{
+
+    public static void main(String []args){
+        
+            System.out.println("..............Inventory management.............");
+            System.out.println("1.Add Item");
+            System.out.println("2.Remove Item");
+            System.out.println("3.Update Item Quantity");
+            System.out.println("4.List All Items");
+            System.out.println("5.Add customer");
+            System.out.println("6.List All customers");
+            System.out.println("7.Search Item By Name");
+            System.out.println("0.Exit");
+            System.out.println("Enter your choise:");
+
+            int choice = sc.nextInt;
+
+            try{
+                switch(choice){
+                    case 1:
+
+                        break;
+
+                    case 2:
+
+                        break;
+
+                    case 3:
+
+                        break;
+
+                    case 4:
+
+                        break;
+
+                    case 5:
+
+                        break;
+
+                    case 6:
+
+                        break;
+
+                    case 7:
+
+                        break;
+
+                    case 0:
+
+                        break;
+
+                    default:
+                        throw new IllegalArgumentException("Invalid input plz input valid");
+                 }
+                }
+                }catch (IllegalArgumentException e) {
+                    System.out.println(e.getMessage());
+                }
+
+
+            
+
+    }
 
 
 
